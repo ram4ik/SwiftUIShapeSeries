@@ -13,6 +13,8 @@
 		95DF0EAF248FB12F0042BE2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DF0EAE248FB12F0042BE2D /* Assets.xcassets */; };
 		95DF0EB2248FB12F0042BE2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DF0EB1248FB12F0042BE2D /* Preview Assets.xcassets */; };
 		95DF0EB5248FB12F0042BE2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DF0EB3248FB12F0042BE2D /* LaunchScreen.storyboard */; };
+		95DF0EBE248FB53F0042BE2D /* TrapeziumShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DF0EBD248FB53F0042BE2D /* TrapeziumShape.swift */; };
+		95DF0EC0248FB6540042BE2D /* RectangleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DF0EBF248FB6540042BE2D /* RectangleShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		95DF0EB1248FB12F0042BE2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95DF0EB4248FB12F0042BE2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95DF0EB6248FB12F0042BE2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95DF0EBD248FB53F0042BE2D /* TrapeziumShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapeziumShape.swift; sourceTree = "<group>"; };
+		95DF0EBF248FB6540042BE2D /* RectangleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		95DF0EA7248FB12D0042BE2D /* SwiftUIShapeSeries */ = {
 			isa = PBXGroup;
 			children = (
+				95DF0EBC248FB5270042BE2D /* Shapes */,
 				95DF0EA8248FB12D0042BE2D /* AppDelegate.swift */,
 				95DF0EAA248FB12D0042BE2D /* SceneDelegate.swift */,
 				95DF0EAC248FB12D0042BE2D /* ContentView.swift */,
@@ -73,6 +78,15 @@
 				95DF0EB1248FB12F0042BE2D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95DF0EBC248FB5270042BE2D /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				95DF0EBD248FB53F0042BE2D /* TrapeziumShape.swift */,
+				95DF0EBF248FB6540042BE2D /* RectangleShape.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				95DF0EA9248FB12D0042BE2D /* AppDelegate.swift in Sources */,
+				95DF0EBE248FB53F0042BE2D /* TrapeziumShape.swift in Sources */,
 				95DF0EAB248FB12D0042BE2D /* SceneDelegate.swift in Sources */,
+				95DF0EC0248FB6540042BE2D /* RectangleShape.swift in Sources */,
 				95DF0EAD248FB12D0042BE2D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
